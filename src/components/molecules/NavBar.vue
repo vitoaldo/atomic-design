@@ -1,20 +1,16 @@
 <template>
-  <div class="component">
-    <SiteLogo />
-  </div>
+  <nav class="navBar"></nav>
 </template>
 
 <script lang="ts">
 import { defineComponent } from 'vue'
-import { SiteLogo } from '@/components/atoms'
 
 export default defineComponent({
-  components: { SiteLogo }
+    
 })
 </script>
 
 <style lang="scss" scoped>
-.component {
-  width: 300px;
+.navBar {
 }
 </style>
