@@ -1,20 +1,19 @@
 <template>
   <div class="component">
-    <SiteLogo />
+    <HomeTemplate />
   </div>
 </template>
 
 <script lang="ts">
 import { defineComponent } from 'vue'
-import { SiteLogo } from '@/components/atoms'
-
+import { HomeTemplate } from '@/components/templates'
 export default defineComponent({
-  components: { SiteLogo }
+  components: { HomeTemplate }
 })
 </script>
 
 <style lang="scss" scoped>
 .component {
-  width: 300px;
+  margin: 0;
 }
 </style>
